@@ -48,6 +48,42 @@ for (i = 3; i <= 7; i++) {
 }
 
 
+//  while statement
+
+let i = 1
+while (i <= 5) {
+    console.log("Hello Mentor", i);
+    i++;
+}
+
+
+let x = 0
+while (x < 10) {
+    console.log(x);
+    x++;
+}
+
+
+// do while statement
+
+let HelloWorld = ""; {
+    let i = 1;
+    do {
+        console.log("Hello World");
+        i++;
+    }
+    while (i <= 5);
+    return 0;
+}
+
+
+let x = 0;
+do {
+    console.log(x);
+    x++;
+} while (x < 10);
+
+
 // function
 
 function kali(a, b) {
